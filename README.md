@@ -5,6 +5,6 @@ This is a stylesheet written to convert FileMaker's Data Design Report to Swift 
 
 While DATA API represents marginally different( It's not really better or worse ) approach to retrieving data compared to FileMaker CWP. GraphQL will give you a more SOAP-like interface though utilizing JSON, YML or XML depending on your preference.
 
-This will run on any version of FileMaker that has CWP or Thrift; regardless of DATA API.
+This will run on any version of FileMaker that has CWP or Thrift; regardless of DATA API. Good for proof of concept, however for production I run FileMaker as editorial tool, postgres as datastore, elasticsearch as index, nginx as reverse proxy, and whatever is required as frontend. For booking systems ncurses and graphQL represents an opportunity with the lowest bandwidth distribution known to man.
 
 FileMaker 5.5 Pro will do for this.
